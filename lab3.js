@@ -5,8 +5,13 @@
 
 
 
-//         (use this space)
 
+ function Cube (x){  
+ let xcubed = (x*x*x);
+ return xcubed;
+};
+
+Cube(3)
 
 
 
@@ -36,3 +41,4 @@ if (typeof cube !== "function") {
     test(-5, -125);
     test(10, 1000);
 }
+test(5, 125)
