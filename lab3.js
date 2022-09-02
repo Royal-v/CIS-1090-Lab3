@@ -6,12 +6,13 @@
 
 
 
- function Cube (x){  
+ function cube (x){  
  let xcubed = (x*x*x);
  return xcubed;
 };
 
-Cube(3)
+console.log(cube(3))
+
 
 
 
@@ -40,5 +41,6 @@ if (typeof cube !== "function") {
     test(2, 8);
     test(-5, -125);
     test(10, 1000);
+
 }
 test(5, 125)
